@@ -1,1 +1,1 @@
-# This codebase contains backend code. This prject has 3 microservices.
+# This codebase contains backend code. This project has 3 microservices.
