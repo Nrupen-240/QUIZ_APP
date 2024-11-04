@@ -1,0 +1,12 @@
+services:
+  ms3:
+    build: "M:/40041165/SpringProjects/service-registry"
+    ports:
+      - "8761:8761"
+    networks:
+      - s-network
+
+networks:
+  s-network:
+    driver: bridge
+    external: true
